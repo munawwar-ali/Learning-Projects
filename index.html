@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="menumain">
+      <button id="darkmood"><i class="bx bxs-moon"></i></button>
+
+      <div class="menu">
+        <button onclick="showSection('s')" id="cal">
+          <i class="bx bxs-calculator"></i>
+          <h6 class="calcul">Calculator</h6>
+        </button>
+        <button id="more">
+          <i class="bx bxs-food-menu"></i>
+          <h6 class="explore">More</h6>
+        </button>
+        <button onclick="showSection('c')" id="currency">
+          <i class="bx bxs-bank"></i>
+          <h6 class="money">Currency</h6>
+        </button>
+      </div>
+    </div>
+    <!-- <div class="section2" id="c">
+      <div class="currency">
+        <button id="gst">G</button>
+        <button id="convert">Money</button>
+      </div>
+    </div> -->
+    <div class="section" id="s"><div class="container">
+      
+        <div>
+          <div class="answer">
+            <input type="text" id="answer" placeholder="0" disabled />
+          </div>
+          <div class="row">
+            <button id="ac">AC</button>
+            <button id="del">DEL</button>
+            <button id="divide">/</button>
+            <button id="percent">%</button>
+          </div>
+          <div class="row">
+            <button id="one">1</button>
+            <button id="two">2</button>
+            <button id="three">3</button>
+            <button id="multi">*</button>
+          </div>
+          <div class="row">
+            <button id="four">4</button>
+            <button id="five">5</button>
+            <button id="six">6</button>
+            <button id="minus">-</button>
+          </div>
+          <div class="row">
+            <button id="seven">7</button>
+            <button id="eight">8</button>
+            <button id="nine">9</button>
+            <button id="plus">+</button>
+          </div>
+          <div class="row">
+            <button id="zerozero">00</button>
+            <button id="zero">0</button>
+            <button id="dot">.</button>
+            <button id="equal">=</button>
+          </div>
+        </div>
+      </div></div>
+    
+    </div></div>
+    </div>
+    
+
+    <script src="app.js"></script>
+  </body>
+</html>
