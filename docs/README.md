@@ -25,13 +25,8 @@ This is a simple yet stylish **Calculator Web App** created as part of [The Odin
 ## 📂 Project Structure
 
 ## 🚀 Live Demo
-🔗 [Click here to view live demo]()  
-
-(Replace **USERNAME** with your GitHub username and **REPO-NAME** with your repository name.)
-
-## 📸 Screenshot
-*(Add a screenshot of your calculator UI once deployed)*  
-
+🔗 [Click here to view live demo](https://munawwar-ali.github.io/Learning-Projects/)  
+ 
 ## ✨ Future Improvements
 - Add **Currency Converter** section  
 - Add **GST calculator**  
